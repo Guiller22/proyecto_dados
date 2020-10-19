@@ -1,0 +1,86 @@
+  .form {
+  position: relative;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  background-color: aliceblue;
+}
+.form input {
+  outline: 0;
+  background: #c5cac2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+body {
+  background: #76b852;
+}
+.form button {
+  text-transform: uppercase;
+  outline: 1;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  margin: auto;
+}
+.topnav {
+  background-color: #2849a1;    
+  overflow: hidden;
+}
+body{
+    background-color: #0b1c4b;
+}
+h1{
+    color:#ddd;
+    text-align:center;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+.topnav a.active {
+  background-color: #0b1c4b;
+  color: white;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.main {
+  margin-top: 30px;
+}
+p{
+  color: white;
+}
