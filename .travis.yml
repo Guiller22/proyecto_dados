@@ -2,6 +2,15 @@ language: php
 php:
   - "7.0"
  # list any PHP version you want to test against
- 
+cache: yarn
+deploy:
+
+  provider: heroku
+
+  app: integracion-cont
+
+  api_key:
+
+    secure: $HEROKU_API_KEY
 script:
 - php index.php
