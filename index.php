@@ -22,7 +22,7 @@
 
     <form method="post" action="" name="signup-form">
         <div class="form">
-            <label>Email</label>
+            <label>GUAY</label>
             <input type="email" name="email" required />
             <br>
             <label>Password</label>
